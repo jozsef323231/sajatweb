@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munkáim</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="projects-container"></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="data/pfp.png" alt="Az Ön fotója">
+            <h2>Lakatos István József</h2>
+            <p>- Adatbázis-struktúrák elemzése, tervezése, felépítése <br>
+               - Java, és CSharp tapasztalat <br>
+               - Python, Lua tapasztalat <br>
+               - HTML, CSS, JavaScript tapasztalat</p>
+            <a href="https://www.canva.com/design/DAFeISHaNC8/B5TajkiczIVlyfBWk_o1yQ/edit?utm_content=DAFeISHaNC8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="btn">Nézze meg a CV-met</a>
+        </div>
+    </div>
+
+    <div id="chatbot">💬</div>
+
+    <script src="script.js"></script>
+    <script src="https://quriobot.com/qb-sdk.js"></script>
+    <script>
+        const quriobot = new Quriobot({
+            id: "OKyGVEXQMXb7dMWX",
+        });
+    </script>
+</body>
+</html>
